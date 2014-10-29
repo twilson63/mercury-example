@@ -13,6 +13,7 @@ npm install http-server -g
 ## Run Demo
 
 ```
+browserify app/index.js -o bundle.js
 http-server
 ```
 
